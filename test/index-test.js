@@ -2,6 +2,7 @@
 
 describe('Objects', function() {
   it('defines a `recipes` object', function() {
+    setTimeout(function(){}, 15000);
     expect(typeof recipes).toEqual('object')
   })
 
